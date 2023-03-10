@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-const int N = 600 + 1;
+const int N = 600 + 1; 
 int a[N][N], sum[N][N];
 
 int main()
