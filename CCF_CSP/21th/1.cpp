@@ -19,7 +19,7 @@ int main()
         ans += w[i] * score[i];
 
     /* 输出结果 */
-    printf("%d\n", ans > 0 ? ans : 0);
+    printf("%d\n", ans > 0 ? ans : 0); 
 
     return 0;
 }
