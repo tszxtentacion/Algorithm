@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #define N 100000
-int n, w[N], score[N];
+int n, w[N], score[N]; 
 
 int main()
 {
