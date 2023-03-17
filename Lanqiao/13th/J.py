@@ -28,3 +28,4 @@ while flag:
 count += sum(nums)  # 无需做减一操作 直接求和就是
 
 print(count)
+ 
