@@ -10,7 +10,7 @@ for i in range(2, n):
     for j in range(1, i):
         dp[i][j] += max(dp[i-1][j], dp[i-1][j-1])
 
-# 考虑走法的次数限制：取dp数组中间位置即可
+# 考虑走法的次数限制：符合要求的数一定是最后一行中间的数
 if n % 2 == 0:
     print(max(dp[n-1][n//2], dp[n-1][n//2-1]))
 else:
