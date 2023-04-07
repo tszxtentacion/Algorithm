@@ -3,7 +3,7 @@ arr = list(map(int, input().split))
 arr.sort()
 dlist = []
 for i in range(n - 1):
-    d.append(arr[i + 1] - arr[i])
+    dlist.append(arr[i + 1] - arr[i])
 
 d = min(dlist)
 s = []
