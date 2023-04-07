@@ -1,5 +1,5 @@
 import os
-import sys
+import sys 
 
 N, M = map(int, input().split())
 lis = list(map(int, input().split()))
